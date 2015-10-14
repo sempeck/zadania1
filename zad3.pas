@@ -1,7 +1,7 @@
 program zad3;
 
 var
-	a, b, c : Integer;
+	a, b, c, d : Real;
 
 begin
 	writeln('Program oblicza wartosc D = B^2 - 4 * A * C');
@@ -11,6 +11,7 @@ begin
 	readln(b);
 	writeln('Podaj C:');
 	readln(c);
-	writeln('D = ', b*b - 4*a*c);
+	d := sqr(b) - (4*a*c);
+	writeln('D = ', d:0:2);
 	readln;
 end.

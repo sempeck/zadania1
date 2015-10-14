@@ -6,6 +6,7 @@ var
 begin
 	writeln('Podaj wartosc C:');
 	readln(c);
-    writeln((c*3-c+6)/(1/c*c));
+	writeln('C podstawione do wzoru (C*3-C+6)/(1/C^2) daje:');
+    writeln((c*3-c+6)/(1/Sqr(c)):0:2);
     readln;
 end.

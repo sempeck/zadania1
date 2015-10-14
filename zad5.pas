@@ -1,17 +1,17 @@
 program zad5;
 
 var
-	a, b: Integer;
+	a, b: Real;
 
 begin
 	writeln('Podaj A:');
 	readln(a);
 	writeln('Podaj B:');
 	readln(b);
-	writeln('A + B = ', a+b);
-	writeln('A - B = ', a-b);
-	writeln('A * B = ', a*b);
+	writeln('A + B = ', a+b:0:3);
+	writeln('A - B = ', a-b:0:3);
+	writeln('A * B = ', a*b:0:3);
 	writeln('A / B = ', a/b:0:3);
-    writeln('Reszta z dzielenia A / B to ', a mod b);
+    writeln('A^2 + B^2 = ', sqr(a) + sqr(b):0:3);
 	readln;
 end.
