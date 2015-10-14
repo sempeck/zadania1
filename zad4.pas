@@ -1,7 +1,7 @@
 program zad4;
 
 var
-c : Byte;
+    c : Byte;
 
 begin
 	writeln('Podaj wartosc C:');
