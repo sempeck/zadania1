@@ -1,5 +1,7 @@
 program zad2;
 
+{$APPTYPE CONSOLE}
+
 var
 	n, m : Real;
 

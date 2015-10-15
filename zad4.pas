@@ -1,5 +1,7 @@
 program zad4;
 
+{$APPTYPE CONSOLE}
+
 var
     c : Byte;
 

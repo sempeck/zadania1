@@ -1,5 +1,7 @@
 program zad3;
 
+{$APPTYPE CONSOLE}
+
 var
 	a, b, c, d : Real;
 

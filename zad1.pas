@@ -1,5 +1,7 @@
 program zad1;
 
+{$APPTYPE CONSOLE}
+
 var
 	imie, nazwisko: String;
 	rok, wiek: Integer;
