@@ -14,6 +14,6 @@ begin
 	writeln('Podaj C:');
 	readln(c);
 	d := sqr(b) - (4*a*c);
-	writeln('D = ', d:0:2);
+	writeln('D = ', d:1:2);
 	readln;
 end.
